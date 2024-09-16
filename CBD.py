@@ -101,7 +101,7 @@ preds = model.predict(x)
 preds=np.argmax(preds, axis=1)
 
 if preds==1:
-  preds="The Car IS a"
+  preds="The Car IS BMW"
 elif preds==2:
   preds="The Car IS Mercedes"
 elif preds==3:
